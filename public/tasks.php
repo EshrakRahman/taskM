@@ -13,16 +13,15 @@ $taskController = new TaskController();
 $authController = new AuthController();
 $message = "";
 
-// Handle Add Task
+// Add Task
 if (isset($_POST['add_task']) && !empty($_POST['title'])) {
     $title = trim($_POST['title']);
     $success = $taskController->create($title);
     $message = $success ? "Task added successfully!" : "Failed to add task.";
 }
 
-// Handle Edit Task
 $editTask = null;
-$tasks = $taskController->list(); // refresh task list
+$tasks = $taskController->list(); 
 
 if (isset($_GET['edit'])) {
     $taskId = (int)$_GET['edit'];
@@ -72,7 +71,6 @@ if (isset($_GET['toggle'])) {
     }
 }
 
-// Handle Logout
 if (isset($_GET['logout'])) {
     session_destroy();
     header("Location: ../views/auth/login.php");

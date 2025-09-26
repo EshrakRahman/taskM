@@ -12,7 +12,7 @@ class Database
     {
         if (self::$instance === null)
         {
-            $host = 'localhost';
+            $host = '127.0.0.1';
             $db   = 'todo_app';
             $user = 'root';
             $pass = '';
