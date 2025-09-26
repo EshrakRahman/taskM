@@ -11,32 +11,17 @@ A lightweight To-Do application built with PHP, featuring user authentication, s
 
 ## Installation
 
-1. Clone the repository:
+1. Set up the database:
+   - Import `query.sql` into your MySQL database.
+   - Configure the database connection in `config/database.php`.
 
-   ```bash
-   git clone https://github.com/EshrakRahman/taskM.git
-Set up the database:
+2. Run the application on a PHP server (e.g., XAMPP, MAMP, or LAMP).
 
-Import query.sql into your MySQL database.
+## Usage
 
-Configure database connection in config/database.php.
+- Access the app via your local server.
+- Register or log in to manage your tasks.
 
-Run the application on a PHP server (e.g., XAMPP, MAMP, or LAMP).
+## License
 
-Usage
-Access the app via your local server.
-
-Register or log in to manage your tasks.
-
-License
 This project is open-source and available under the MIT License.
-
-markdown
-Copy code
-
-This uses **proper Markdown notation**:
-
-- `#` and `##` for headings  
-- `-` for lists  
-- Triple backticks ````` for code blocks  
-- `**bold**` for emphasis  
