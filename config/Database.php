@@ -14,7 +14,7 @@ class Database
         {
             $host = 'localhost';
             $db   = 'todo_app';
-            $user = '';
+            $user = 'root';
             $pass = '';
             $charset = 'utf8mb4';
 
