@@ -9,6 +9,14 @@ A lightweight To-Do application built with PHP, featuring user authentication, s
 - **Session-Based**: Tasks are managed per user session.
 - **MySQL Backend**: Persistent data storage.
 
+## Screenshots
+
+Here are some screenshots of the application:
+
+![Signin Page](screenshots/1.png)  
+![Tasks Page](screenshots/2.png)  
+![Signup Page](screenshots/3.png)  
+
 ## Installation
 
 1. Set up the database:
